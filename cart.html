@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+</head>
+
+<body>
+
+<h1>Your Cart 🛒</h1>
+
+<div id="cart-items"></div>
+
+<script>
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+let container = document.getElementById("cart-items");
+
+if(cart.length === 0){
+    container.innerHTML = "<p>Cart is empty</p>";
+}
+
+cart.forEach(item => {
+    let div = document.createElement("div");
+    div.innerHTML = item.name + " - $" + item.price;
+    container.appendChild(div);
+});
+
+</script>
+
+</body>
+</html>
