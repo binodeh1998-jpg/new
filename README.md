@@ -1,30 +1,21 @@
 # HEKTO - Modern Furniture Store 🛋️
 
-**HEKTO** is a modern e-commerce web application designed for high-end furniture retail. The project focuses on a clean user interface, seamless navigation, and a fully responsive layout inspired by contemporary interior design trends.
+HEKTO is a modern, responsive e-commerce web application for furniture retail. It provides a clean user interface for browsing products, a functional shopping cart, and a sleek landing page.
 
 ---
 
-## ✨ Key Features
-* **Modern UI/UX:** A sleek design featuring the latest furniture collections and architectural trends.
-* **Interactive Shopping Cart:** Real-time item count updates using JavaScript.
-* **Fully Responsive:** Optimized for all screen sizes, including mobile, tablets, and desktops.
-* **Functional Login System:** Interactive login form with validation handling.
-* **Product Showcase:** Organized display of products with hover effects and "Add to Cart" functionality.
+## 🛠️ Tools and Technologies Used
+* **HTML5:** For the semantic structure of the website.
+* **CSS3:** For styling, layout (Flexbox/Grid), and responsive design.
+* **JavaScript (ES6+):** For interactive elements like the shopping cart and form validation.
+* **Font Awesome:** For professional scalable vector icons.
+* **GitHub Pages:** Used for hosting and live deployment.
 
 ---
 
-## 🛠️ Technologies Used
-* **HTML5:** Semantic structure for better SEO and accessibility.
-* **CSS3:** Advanced styling using Flexbox and Grid systems for layout precision.
-* **JavaScript (ES6+):** Dynamic functionality for the cart system and form interactions.
-* **Font Awesome:** High-quality vector icons for a professional look.
+## 🚀 How to Run the Project
+You don't need any special server to run this project. Follow these simple steps:
 
----
-
-## 📂 Project Structure
-```text
-├── index.html          # Main landing page
-├── base.css            # Global styles and resets
-├── main.css            # Component-specific styles (Hero, Products, Blog)
-├── products/           # Directory containing all product images
-└── logo.svg            # Store branding/logo
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/binodeh1998-jpg/new.git](https://github.com/binodeh1998-jpg/new.git)
